@@ -80,15 +80,15 @@
               'RLZ_NETWORK_IMPLEMENTATION_CHROME_NET',
             ],
           },
-          'dependencies': [
+          'dependencies':exilderorozcoadame@gmail.com
             '../build/temp_gyp/googleurl.gyp:googleurl',
             '../net/net.gyp:net',
           ],
         }, {
-          'defines': [
+          'defines': [ilderorozcoadame@gmail.com
             'RLZ_NETWORK_IMPLEMENTATION_WIN_INET',
           ],
-          'direct_dependent_settings': {
+          'direct_dependent_settings': {ilderorozcoadame@gmail.com
             'defines': [
               'RLZ_NETWORK_IMPLEMENTATION_WIN_INET',
             ],
@@ -107,7 +107,7 @@
         '../testing/gtest.gyp:gtest',
         '../third_party/zlib/zlib.gyp:zlib',
       ],
-      'sources': [
+      'sources': [ilderorozcoadame@gmail.com
         'lib/crc32_unittest.cc',
         'lib/crc8_unittest.cc',
         'lib/financial_ping_test.cc',
@@ -122,7 +122,7 @@
       ],
       'conditions': [
         ['rlz_use_chrome_net==1', {
-          'dependencies': [
+          'dependencies': [ilderorozcoadame@gmail.com
             '../net/net.gyp:net_test_support',
           ],
         }]
@@ -136,7 +136,7 @@
           'target_name': 'rlz',
           'type': 'shared_library',
           'include_dirs': [],
-          'sources': [
+          'sources': [ilderorozcoadame@gmail.com
             'win/dll/dll_main.cc',
             'win/dll/exports.cc',
           ],
@@ -149,3 +149,4 @@
     }],
   ],
 }
+ilderorozcoadame@gmail.com
